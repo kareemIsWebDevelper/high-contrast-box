@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>high contrast image</title>     
+   
+</head>
+<body>
+    <main>
+        <!-- <div class="center"><img src="images/icon-view.svg"></div> -->
+        
+        <div id="container">
+            <div class="img" onmouseover=" showEye ();" onmouseout="hide();">
+                <div class="center"><img src="images/icon-view.svg"></div>
+
+                <img src="images/image-equilibrium.jpg">
+            </div>
+            <h3>Equilibrium #3429</h3>
+            <p>  Our Equilibrium collection promotes <br>balance and calm.
+            
+            </p>
+            
+            <div id="hr"></div>
+
+            <div class="flex">
+                <div>
+                    <img src="images/icon-ethereum.svg" alt="img">0.041 ETH
+                </div>
+            <div style="color: grey;">
+                <img src="images/icon-clock.svg" alt="img">3 days left
+            </div>
+            </div>
+            <div class="flex1">
+                <img src="images/image-avatar.png" alt="img">Creation of <span>Jules Wyvern
+                </span>
+            </div>
+    
+        </div>
+        <script>
+                function showEye (){
+                var eye = document.querySelector(".center");
+                eye.style.display = "block";
+            }
+                function hide (){
+                var eye = document.querySelector(".center");
+                eye.style.display = "none";
+            }
+        </script>    </main>
+    
+</body>
+</html>
